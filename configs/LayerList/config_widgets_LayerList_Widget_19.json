@@ -1,0 +1,42 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "Municipio_de_Madrid_WFL1_449": {
+      "display": true
+    },
+    "Municipio_de_Madrid_WFL1_5512": {
+      "display": true
+    },
+    "Municipio_de_Madrid_WFL1_7760": {
+      "display": true
+    },
+    "Municipio_de_Madrid_WFL1_9366": {
+      "display": true
+    },
+    "Municipio_de_Madrid_WFL1_9020": {
+      "display": true
+    },
+    "Municipio_de_Madrid_WFL1_4930": {
+      "display": true
+    },
+    "Municipio_de_Madrid_WFL1_4819": {
+      "display": true
+    },
+    "Municipio_de_Madrid_WFL1_8832": {
+      "display": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "App Movilidad Madrid",
+  "description": "Los cálculos de rutas incluyen escenarios anticontaminación: restricción de velocidad a 70 Km/h, evitar la Almendra Central y ambas opciones juntas. También incluye cálculo de rutas a pie andando, corriendo, en bicicleta y en patinete eléctrico.",
+  "createdTime": 1554476042968,
+  "lastUpdated": 1554737741166,
+  "creator": "MyriamDdR",
+  "icon": "images/icon.jpeg",
+  "thumbnail": "images/thumbnail.jpeg"
+}

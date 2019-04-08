@@ -1,0 +1,35 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "Municipio_de_Madrid_WFL1_449": {
+      "selected": true
+    },
+    "Municipio_de_Madrid_WFL1_5512": {
+      "selected": true
+    },
+    "Municipio_de_Madrid_WFL1_7760": {
+      "selected": true
+    },
+    "Municipio_de_Madrid_WFL1_9366": {
+      "selected": true
+    },
+    "Municipio_de_Madrid_WFL1_9020": {
+      "selected": true
+    },
+    "Municipio_de_Madrid_WFL1_4930": {
+      "selected": true
+    },
+    "Municipio_de_Madrid_WFL1_4819": {
+      "selected": true
+    },
+    "Municipio_de_Madrid_WFL1_8832": {
+      "selected": true
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

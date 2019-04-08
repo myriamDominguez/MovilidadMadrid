@@ -1,0 +1,477 @@
+{
+  "theme": {
+    "name": "DirectionsTheme",
+    "styles": [
+      "default",
+      "grey"
+    ],
+    "version": "2.11",
+    "sharedTheme": {
+      "useHeader": true,
+      "useLogo": false,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": null
+    }
+  },
+  "portalUrl": "https://myriam-del-rio.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Movilidad Madrid",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/DirectionsTheme/widgets/BoxController/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "themes_DirectionsTheme_widgets_BoxController_Widget_20",
+        "name": "BoxController"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "visible": false,
+        "position": {
+          "right": 0,
+          "top": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_OverviewMap_Widget_21",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_ZoomSlider_Widget_22",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 10,
+          "top": 70,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_HomeButton_Widget_23",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 10,
+          "top": 100,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_MyLocation_Widget_24",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "visible": false,
+        "position": {
+          "left": 40,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Search_Widget_25",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 30,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Scalebar_Widget_26",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Coordinate_Widget_27",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "visible": false,
+        "version": "2.11",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "id": "widgets_AttributeTable_Widget_28",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.11",
+        "id": "widgets_Splash_Widget_29",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "left": 10,
+          "top": 160,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_ExtentNavigate_Widget_30",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "left": 10,
+          "top": 130,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_FullScreen_Widget_31",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "ae4a415a3c934a4885d6f15abab60e79",
+    "mapOptions": {
+      "extent": {
+        "xmin": -429213.26846907166,
+        "ymin": 4914527.950611478,
+        "xmax": -385797.03640315,
+        "ymax": 4940898.725369828,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "https://myriam-del-rio.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/DirectionsTheme/panels/BoxPanel/Panel",
+      "positionRelativeTo": "browser",
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "relativeTo": "browser"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.11",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2,
+        "label": "Leyenda",
+        "config": "configs/Legend/config_widgets_Legend_Widget_18.json"
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.11",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3,
+        "label": "Lista de capas"
+      },
+      {
+        "name": "Directions",
+        "label": "Direcciones",
+        "version": "2.11",
+        "uri": "widgets/Directions/Widget",
+        "config": "configs/Directions/config_widgets_Directions_Widget_34.json",
+        "index": 4,
+        "id": "widgets_Directions_Widget_34"
+      },
+      {
+        "name": "Geoprocessing",
+        "label": "Filtro por distancia",
+        "version": "2.11",
+        "uri": "widgets/Geoprocessing/Widget",
+        "config": "configs/Geoprocessing/config_widgets_Geoprocessing_Widget_33.json",
+        "index": 5,
+        "id": "widgets_Geoprocessing_Widget_33"
+      },
+      {
+        "name": "Filter",
+        "label": "Filtros básicos",
+        "version": "2.11",
+        "uri": "widgets/Filter/Widget",
+        "index": 6,
+        "id": "widgets_Filter_Widget_32",
+        "config": "configs/Filter/config_widgets_Filter_Widget_32.json"
+      },
+      {
+        "name": "WidgetMovilidad",
+        "label": "Información del Web Map",
+        "version": "2.11",
+        "IsController": false,
+        "uri": "widgets/WidgetMovilidad/Widget",
+        "index": 7,
+        "id": "widgets_WidgetMovilidad_Widget_36"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#e0e0e0",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 480,
+      "height": 336
+    }
+  },
+  "wabVersion": "2.11",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Geoprocessing_Widget_33~filter-Resultado": {
+        "id": "widget~widgets_Geoprocessing_Widget_33~filter-Resultado",
+        "type": "Features",
+        "label": "Resultado",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "OBJECTID_1",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID_1"
+            },
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeInteger",
+              "alias": "objectid"
+            },
+            {
+              "name": "provincia",
+              "type": "esriFieldTypeString",
+              "alias": "provincia",
+              "length": 80
+            },
+            {
+              "name": "municipio",
+              "type": "esriFieldTypeString",
+              "alias": "municipio",
+              "length": 80
+            },
+            {
+              "name": "localidad",
+              "type": "esriFieldTypeString",
+              "alias": "localidad",
+              "length": 80
+            },
+            {
+              "name": "código_po",
+              "type": "esriFieldTypeString",
+              "alias": "código_po",
+              "length": 80
+            },
+            {
+              "name": "direccion",
+              "type": "esriFieldTypeString",
+              "alias": "dirección",
+              "length": 106
+            },
+            {
+              "name": "margen",
+              "type": "esriFieldTypeString",
+              "alias": "margen",
+              "length": 80
+            },
+            {
+              "name": "longitud",
+              "type": "esriFieldTypeDouble",
+              "alias": "longitud"
+            },
+            {
+              "name": "latitud",
+              "type": "esriFieldTypeDouble",
+              "alias": "latitud"
+            },
+            {
+              "name": "precio_gas",
+              "type": "esriFieldTypeDouble",
+              "alias": "precio_gas"
+            },
+            {
+              "name": "precio_g_1",
+              "type": "esriFieldTypeDouble",
+              "alias": "precio_g_1"
+            },
+            {
+              "name": "precio_g_2",
+              "type": "esriFieldTypeString",
+              "alias": "precio_g_2",
+              "length": 80
+            },
+            {
+              "name": "precio_bio",
+              "type": "esriFieldTypeString",
+              "alias": "precio_bio",
+              "length": 80
+            },
+            {
+              "name": "precio_nue",
+              "type": "esriFieldTypeString",
+              "alias": "precio_nue",
+              "length": 80
+            },
+            {
+              "name": "precio_b_1",
+              "type": "esriFieldTypeString",
+              "alias": "precio_b_1",
+              "length": 80
+            },
+            {
+              "name": "f__éster_",
+              "type": "esriFieldTypeString",
+              "alias": "f__éster_",
+              "length": 80
+            },
+            {
+              "name": "f__bioalco",
+              "type": "esriFieldTypeString",
+              "alias": "f__bioalco",
+              "length": 80
+            },
+            {
+              "name": "precio_g_3",
+              "type": "esriFieldTypeString",
+              "alias": "precio_g_3",
+              "length": 80
+            },
+            {
+              "name": "precio_g_4",
+              "type": "esriFieldTypeString",
+              "alias": "precio_g_4",
+              "length": 80
+            },
+            {
+              "name": "precio_g_5",
+              "type": "esriFieldTypeString",
+              "alias": "precio_g_5",
+              "length": 80
+            },
+            {
+              "name": "precio_g_6",
+              "type": "esriFieldTypeString",
+              "alias": "precio_g_6",
+              "length": 80
+            },
+            {
+              "name": "rótulo",
+              "type": "esriFieldTypeString",
+              "alias": "rótulo",
+              "length": 80
+            },
+            {
+              "name": "tipo_venta",
+              "type": "esriFieldTypeString",
+              "alias": "tipo_venta",
+              "length": 80
+            },
+            {
+              "name": "rem_",
+              "type": "esriFieldTypeString",
+              "alias": "rem_",
+              "length": 80
+            },
+            {
+              "name": "horario",
+              "type": "esriFieldTypeString",
+              "alias": "horario",
+              "length": 94
+            },
+            {
+              "name": "horario00",
+              "type": "esriFieldTypeString",
+              "alias": "horario00",
+              "length": 94
+            },
+            {
+              "name": "z",
+              "type": "esriFieldTypeString",
+              "alias": "z",
+              "length": 80
+            },
+            {
+              "name": "fecha",
+              "type": "esriFieldTypeString",
+              "alias": "fecha",
+              "length": 80
+            }
+          ],
+          "objectIdField": {
+            "name": "OBJECTID_1",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID_1"
+          }
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": ""
+}

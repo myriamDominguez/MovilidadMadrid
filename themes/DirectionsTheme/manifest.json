@@ -1,0 +1,40 @@
+{
+  "name": "DirectionsTheme",
+  "platform": "HTML",
+  "panels": [
+    {
+      "name": "BoxPanel",
+      "description": "Box panel"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "Default style",
+      "styleColor": "#a7bf62e6"
+    },
+    {
+      "name": "grey",
+      "description": "Grey style",
+      "styleColor": "#646464"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "Default layout"
+    }
+  ],
+  "widgets": [
+    {
+      "name": "BoxController",
+      "description": "Theme widget controller"
+    }
+  ],
+  "version": "2.11",
+  "wabVersion": "2.11",
+  "author": "@SpatialAgent",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}
