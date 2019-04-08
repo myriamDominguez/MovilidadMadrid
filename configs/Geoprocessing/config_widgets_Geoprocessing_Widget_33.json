@@ -217,7 +217,8 @@
       "category": "",
       "label": "Distancia del elemento a la Almendra",
       "visible": true,
-      "required": false
+      "required": false,
+      "tooltip": "Distancia del elemento a la Almendra"
     },
     {
       "name": "Filtrar_el_elemento_por_sus_atributos",
@@ -225,9 +226,10 @@
       "description": "OPCIONAL: Filtro que se puede aplicar a los elementos hallados en función de sus atributos",
       "defaultValue": "margen = 'D'",
       "category": "",
-      "label": "Filtrar el elemento por sus atributos",
+      "label": "Filtrar el elemento por sus atributos (ver Ayuda)",
       "visible": true,
-      "required": false
+      "required": false,
+      "tooltip": "Filtrar el elemento por sus atributos"
     }
   ],
   "outputParams": [
@@ -625,5 +627,5 @@
     "Resultado",
     "Elementos_a_buscar"
   ],
-  "showExportButton": false
+  "showExportButton": true
 }
