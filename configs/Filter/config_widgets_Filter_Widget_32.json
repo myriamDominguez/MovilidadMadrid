@@ -335,26 +335,26 @@
         "parts": [
           {
             "fieldObj": {
-              "name": "TIPO_RECARGA",
-              "label": "TIPO_RECARGA",
+              "name": "RECARGA",
+              "label": "RECARGA",
               "dateFormat": "",
-              "shortType": "string",
-              "type": "esriFieldTypeString"
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
             },
-            "operator": "stringOperatorIs",
+            "operator": "numberOperatorIs",
             "valueObj": {
               "isValid": true,
               "type": "value",
-              "value": "2"
+              "value": 2
             },
             "interactiveObj": "",
             "caseSensitive": false,
-            "displaySQL": "UPPER(TIPO_RECARGA) = '2'",
-            "expr": "UPPER(TIPO_RECARGA) = '2'"
+            "displaySQL": "RECARGA = 2",
+            "expr": "RECARGA = 2"
           }
         ],
-        "expr": "UPPER(TIPO_RECARGA) = '2'",
-        "displaySQL": "UPPER(TIPO_RECARGA) = '2'"
+        "expr": "RECARGA = 2",
+        "displaySQL": "RECARGA = 2"
       },
       "icon": null,
       "enableMapFilter": true,
